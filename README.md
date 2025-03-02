@@ -4,7 +4,7 @@
 ## Процесс сборки
 ```
 git clone https://github.com/DarthNik/pr2.git && cd pr2
-mkdir biuld && cd build
+mkdir build && cd build
 cmake ..
 make 
 ```
