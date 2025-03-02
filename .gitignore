@@ -1,0 +1,4 @@
+*.o
+error_file
+log_file
+.build/
