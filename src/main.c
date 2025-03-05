@@ -3,12 +3,11 @@
 #include <stdlib.h>
 #include <pwd.h>
 #include <getopt.h>
-
-void users();
-void processes();
-void logging(const char* lfp);
-void errors(const char* lfp);
-void help();
+#include "users.h"
+#include "processes.h"
+#include "error.h"
+#include "log.h"
+#include "help.h"
 
 int main(int argc, char* argv[]){
     int opt;
